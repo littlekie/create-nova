@@ -28,6 +28,7 @@
   "author": "nova",
   "license": "ISC",
   "devDependencies": {
+    "execa": "^5.1.0",
     "yorkie": "^2.0.0"
   }
 }
