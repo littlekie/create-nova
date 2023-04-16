@@ -6,9 +6,10 @@
     "create-nova": "./dist/index.mjs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "version": "npm version patch && git push && git push --tags",
     "dev": "unbuild --stub",
-    "build": "unbuild"
+    "build": "unbuild",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "gitHooks": {
     "commit-msg": "node scripts/verifyCommit.js"
