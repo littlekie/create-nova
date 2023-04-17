@@ -2,6 +2,7 @@
   "name": "create-nova",
   "version": "1.0.0",
   "description": "vue-template-demo vue3 vue2",
+  "packageManager": "pnpm@8.2.0",
   "bin": {
     "create-nova": "./dist/index.mjs"
   },
