@@ -34,5 +34,7 @@ jobs:
 
       - name: Publish package
         run: pnpm run publish-npm
+        width:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
