@@ -20,14 +20,14 @@ async function main(): Promise<void> {
     step('\nCommitting changes...')
     await run('git', ['add', '-A'])
     await run('git', ['commit', '-m', `release: ${tag}`])
-    await run('git', ['tag', tag])
+    // await run('git', ['tag', tag])
   } else {
     console.log('No changes to commit.')
     return
   }
 
   step('\nPushing to GitHub...')
-  await run('git', ['push', 'origin', `refs/tags/${tag}`])
+  // await run('git', ['push', 'origin', `refs/tags/${tag}`])
   await run('git', ['push'])
 
 }
