@@ -72,4 +72,4 @@ export async function run(
   return execa(bin, args, { stdio: 'inherit', ...opts })
 }
 
-main().catch(err=>console.log(err))
+main().then(()=>console.log('Release successfully')).catch(err=>console.log(err))
