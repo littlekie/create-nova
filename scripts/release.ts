@@ -11,8 +11,8 @@ async function main(): Promise<void> {
 
   const tag = await getLatestTag('create-nova')
 
-  targetVersion = tag.split('v')[1]
-  const pkgDir = path.resolve(__dirname,'../','package.json')
+  targetVersion = tag.split('@')[1]
+  const pkgDir = path.resolve(__dirname, '../', 'package.json')
   updateVersion(pkgDir, targetVersion)
 
   const { stdout } = await run('git', ['diff'], { stdio: 'pipe' })
