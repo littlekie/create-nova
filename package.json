@@ -1,6 +1,6 @@
 {
   "name": "create-nova",
-  "version": "1.1.2",
+  "version": "1.1.0",
   "description": "vue-template-demo vue3 vue2",
   "packageManager": "pnpm@8.2.0",
   "bin": {
@@ -22,15 +22,6 @@
     "cli",
     "vue-template-demo"
   ],
-  "dependencies": {
-    "@types/inquirer": "^9.0.3",
-    "chalk": "^2.3.0",
-    "commander": "^7.1.0",
-    "download-git-repo": "^3.0.2",
-    "inquirer": "^8.0.0",
-    "ora": "^1.3.0",
-    "rimraf": "^2.6.2"
-  },
   "author": "littlekie",
   "license": "ISC",
   "devDependencies": {
@@ -41,6 +32,13 @@
     "picocolors": "^1.0.0",
     "tsx": "^3.12.6",
     "unbuild": "^1.2.1",
-    "yorkie": "^2.0.0"
+    "yorkie": "^2.0.0",
+    "@types/inquirer": "^9.0.3",
+    "chalk": "^2.3.0",
+    "commander": "^7.1.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^8.0.0",
+    "ora": "^1.3.0",
+    "rimraf": "^2.6.2"
   }
 }
