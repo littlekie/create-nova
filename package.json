@@ -11,7 +11,7 @@
     "dev": "unbuild --stub",
     "build": "unbuild",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "ci-publish": "npm publish",
+    "publish-npm": "npm publish",
     "release": "tsx scripts/release.ts"
   },
   "gitHooks": {
